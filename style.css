@@ -1,0 +1,213 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box
+}
+/******* Utlility classess **********/
+
+h2:after{
+	content: "";
+	display: block;
+	height: 2px;
+	width: 100px;
+	background-color: #e0e;
+	margin: 0.4rem auto;
+}
+
+
+
+
+
+/***********************************/
+body{
+	background-color: #2a2a2a;
+	color: #fff;
+	font-family: sans-serif,default;
+	font-size: 16px;
+}
+/******** navbar ***********/
+header{
+	background-image:linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)), url(images/artimg-1.png);
+	height: 100vh;
+	background-size: cover;
+}
+.navbar{
+	opacity:0.85;
+	background-color: #1f1f1f !important;
+}
+.nav-link{
+	margin-right: 1rem; 
+}
+.nav-link:hover{
+	color: #f8f !important;
+	font-weight: 500;
+	
+}
+.logo{
+	height:10rem;
+	width: 10rem;
+
+}
+.hero-text{
+	display: flex;
+	font-size: 2.5rem;
+	line-height: 1.5;
+	letter-spacing: .6;
+	font-weight: 900;
+	height:70vh;
+    align-items:center;
+	justify-content: center;
+	padding: .5rem;
+	color: #fff !important;
+}
+
+/********** About Us **********/
+
+.about-image{
+	height: 30rem;
+	width: 40rem;
+}
+
+/************* Team section *************/
+.photo-container{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.player-photo {
+	width: 30rem;
+	height: 20rem;
+	border:1px solid #fff;
+	border-radius: .3rem;
+}
+/*********** Tournament Section *************/
+#tournament{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(images/artimg-3.png);
+	height: 40vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#countdown div{
+	color: #e0e;
+	margin-right: 1rem;
+	font-size: 2.5rem;
+	border: 1px solid #e0e;
+	border-radius: 0.5rem;
+	padding: 1rem;
+}
+/************ FAQ section **********/
+.q-number{
+	font-size: 140%;
+	border: 1px solid #e0e;
+	border-radius: 50%;
+	padding: 7px 18px;
+	height: 3rem;
+	width:  3rem;
+	color: #e0e;
+}
+.q-answer{
+	margin-top: 1%;
+	margin-left: 1rem;
+}
+.f-answer{
+	font-size: 130%;
+	font-weight: 500;
+	color:#e0e;
+}
+.text-ld{
+	font-size: 120%;
+	font-weight: 200;
+}
+/************ Footer section *****************/
+
+.contact-us{
+	color: #f8f;
+	font-size: 200%;
+}
+
+.btns{
+	font-size: 110%;
+	padding:0.3rem 1rem;
+	color: #f0f;
+	border: 1px solid #f0f;
+	border-radius: 9rem;
+}
+.btns:hover{
+	color: #fff;
+	background-color: #f0f;
+	transition: background 0.2s ease-in-out;
+}
+.modal-text-color{
+	color: #f8f;
+}
+
+.modal-icon{
+	font-size: 180%;
+	vertical-align: middle;
+}
+
+.video-cont{
+	width: 100%;
+	height: 20vh;
+}
+
+
+video{
+	width: 100%;
+	height: 100%;;
+}
+
+
+
+/***************** Media queries **********/
+
+@media screen and (min-width:800px)
+{
+	
+	.margin-left{
+		margin-left: 10%;
+	}
+}
+
+
+@media screen and (max-width:478px)
+{
+  	
+#countdown div{
+	color: #e0e;
+	margin-right: .2rem;
+	font-size: 1.5rem;
+	border: 1px solid #e0e;
+	border-radius: 0.5rem;
+	padding: .5rem;
+}
+	
+}
+@media screen 
+and (min-width : 469px) 
+and (max-width : 768px)
+{
+	
+
+#countdown div{
+	color: #e0e;
+	margin-right: .3rem;
+	font-size: 1.8rem;
+	border: 1px solid #e0e;
+	border-radius: 0.5rem;
+	padding: .6rem;
+}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
